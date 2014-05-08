@@ -23,7 +23,7 @@ with(ec,
      plot(ec$tiestamp, ec$Sub_metering_3,type="l",xlab="",ylab="",col = "blue",ylim=range(c(ec$Sub_metering_1,ec$Sub_metering_2,ec$Sub_metering_3)))
 )  
 
-legend("topright", pch = 1, col = c("black","blue", "red"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
+legend("topright", pch = "-", col = c("black","blue", "red"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
 
 #save to a file
 dev.off()
